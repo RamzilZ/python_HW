@@ -26,7 +26,6 @@ def test_session_storage_auth():
     print("URL пользователя 1:", profile1)
 
     driver.delete_all_cookies()
-    #driver.refresh()
 
     driver.add_cookie({
         "name": "SESSION",
