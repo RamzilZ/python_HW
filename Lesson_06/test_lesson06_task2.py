@@ -14,7 +14,7 @@ def test_session_storage_auth():
 
     driver.add_cookie ({
         "name": "SESSION",
-        "value": "YjI4YmU1YmQtNTI4ZS00NGYxLWI3MWMtZWM1OGU0ZWM2N2Fj",
+        "value": "MzViMjI1ZWMtNzMxMS00M2I1LWFjZDktYzMyZjIxODQ3OWZj",
         "domain": "gitflic.ru"
     })
     driver.refresh()
@@ -26,11 +26,10 @@ def test_session_storage_auth():
     print("URL пользователя 1:", profile1)
 
     driver.delete_all_cookies()
-    #driver.refresh()
 
     driver.add_cookie({
         "name": "SESSION",
-        "value": "YTJhOGY5MzEtYjliZS00YTZhLTgzNmUtMTcwZDhhOTJkM2M3",
+        "value": "YTc0ZmU5ODAtZDAzNS00MjRhLWEzZjUtMTk2MzFmZmQ3Y2Y0",
         "domain": "gitflic.ru"
     })
     driver.refresh()
